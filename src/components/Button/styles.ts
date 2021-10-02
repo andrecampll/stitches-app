@@ -24,6 +24,15 @@ export const Container = ifoodStyled('button', {
         border: '1px solid',
         borderColor: '$red600'
       }
+    },
+    pill: {
+      true: {
+        borderRadius: '$pill',
+      }
     }
+  },
+
+  defaultVariants: {
+    variant: 'primary'
   }
 });
